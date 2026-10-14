@@ -1,0 +1,12 @@
+{
+  "name": "chaingraph-startos",
+  "dependencies": {
+    "@start9labs/start-sdk": "3.0.6",
+    "bitcoin-core-startos": "github:Start9Labs/bitcoin-core-startos#45749da27d90aa1976820936bef52a5aee7bbb47",
+    "bitcoin-core-testnet-startos": "github:remcoros/bitcoind-testnet4-startos#ece6d7a00281caf94e41932b66410685f207cd80",
+    "fulcrum-startos": "github:Start9Labs/fulcrum-startos#0ebdcefe05dbf574564379c12e5ee09232671bad"
+  },
+  "overrides": {
+    "@start9labs/start-sdk": "$@start9labs/start-sdk"
+  }
+}
